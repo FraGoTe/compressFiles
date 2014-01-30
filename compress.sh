@@ -8,12 +8,12 @@ fnValidaCarpeta(){
     echo "-----------------------------------------------"
 	else
 		echo "LA CARPETA $1 NO EXISTE"
-    echo "========================="
-    echo "Ingresar en el bash: "
-    echo "# sh comprimir.sh nombreDeLaCarpeta"
-    echo ""
-    echo ""
-		exit
+		echo "========================="
+		echo "Ingresar en el bash: "
+		echo "# sh comprimir.sh nombreDeLaCarpeta"
+		echo ""
+		echo ""
+	exit
 	fi
 }
 
